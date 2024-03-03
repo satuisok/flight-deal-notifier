@@ -16,8 +16,8 @@ class NotificationManager:
 
         message = client.messages.create(
             body=sms,
-            from_="+12765944137",
-            to="+358505317345"
+            from_="YOUR TWILIO NUMBER GOES HERE",
+            to="YOUR PERSONAL NUMBER GOES HERE"
         )
 
         print(message.sid)
